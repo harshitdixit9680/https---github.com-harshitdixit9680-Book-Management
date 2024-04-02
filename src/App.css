@@ -36,3 +36,173 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* book.css */
+
+.book {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Book.css */
+
+.book {
+  margin: 9px;
+  padding: 10px;
+  border: 2px solid #363131;
+  border-radius: 5px;
+  background-color: #9aa5ae;
+}
+
+.add-book-button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.add-book-button:hover {
+  background-color: #0056b3;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal input,
+.modal button {
+  margin: 5px 0;
+}
+
+.modal button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  width: 97%;
+    padding-left: 14px;
+    margin-left: 10px;
+    margin-top: 6px;
+    font-size: 16px;
+    border: 1px solid #413636;
+    border-radius: 5px;
+}
+
+.book-form {
+  margin-bottom: 20px;
+}
+
+.book-form input {
+  width: calc(33.33% - 10px);
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-form button:hover {
+  background-color: #0056b3;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+}
+
+.book-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.book-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.book-item p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.book-item button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-item button:hover {
+  background-color: #c82333;
+}
